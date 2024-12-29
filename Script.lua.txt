@@ -92,6 +92,9 @@ end)
 local KillingCheats = PhantomForcesWindow:NewSection("Main Fruit")
  
 KillingCheats:CreateButton("Auto Nhặt Fruit", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/vanthanhdepzai/refs/heads/main/autofruit.lua.txt"))()
+
+end)
 
  
 local KillingCheats = PhantomForcesWindow:NewSection("Main Aim")
