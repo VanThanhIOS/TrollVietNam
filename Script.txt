@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/TrollVietNam/refs/heads/main/darkkkk.txt"))()
 
 
-local Window = Library:CreateWindow('Văn Thành IOS - Ver 2')
+local Window = Library:CreateWindow('Văn Thành IOS / Ver_2')
 
 local Tab = {
     Tab_1 = Window:addTab('#Home'),
@@ -111,6 +111,17 @@ Main_Home:addButton("Antilag - FPS", function()
         end
     end
 end)
+
+local Home_Left = Tab.Tab_1:addSection()
+local Changelog = Home_Left:addMenu("Thông Tin")
+Changelog:addChangelog('Xin Chào Tất Cả Các Bạn ❤️')
+Changelog:addChangelog('Hello Everyone ❤️')
+Changelog:addChangelog('Menu : Văn Thành IOS' )
+Changelog:addChangelog('Thông Tin Liên Hệ')
+Changelog:addChangelog('YTB: @thanhdzso1')
+Changelog:addChangelog('Tik Tok: @vanthanhisme_')
+Changelog:addChangelog('FB : @vanthanhisme')
+Changelog:addChangelog('Goodbye Everyone')
 
 
 ----------------------------------------------------//----------------------------------------------------
