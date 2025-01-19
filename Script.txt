@@ -1,4 +1,4 @@
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/TrollVietNam/refs/heads/main/darkkkk.txt"))()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/TrollVietNam/refs/heads/main/kaka.txt"))()
 
 
 local Window = Library:CreateWindow('Văn Thành IOS')
