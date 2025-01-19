@@ -1,7 +1,7 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsHub07/nada/refs/heads/main/darkkkk.txt"))() -- LIBRARY
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/TrollVietNam/refs/heads/main/darkkkk.txt"))()
 
 
-local Window = Library:CreateWindow('Lures Script')
+local Window = Library:CreateWindow('Văn Thành IOS')
 
 local Tab = {
     Tab_1 = Window:addTab('#Home'),
