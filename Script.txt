@@ -505,10 +505,9 @@ for i,p in next, ps:GetPlayers() do
     if p ~= lp then
         p_added(p)
     end
-end
+end)
 
 ps.PlayerAdded:Connect(p_added)
-end)
 
 
 ----------------------------------------------------//----------------------------------------------------
