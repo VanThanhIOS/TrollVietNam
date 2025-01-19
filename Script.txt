@@ -19,18 +19,6 @@ local Tab = {
     
 }
 
-local Home_Left = Tab.Tab_1:addSection()
-local Changelog = Home_Left:addMenu("Thông Tin")
-Changelog:addChangelog('Xin Chào Tất Cả Các Bạn ❤️')
-Changelog:addChangelog('Hello Everyone ❤️')
-Changelog:addChangelog('Menu : Văn Thành IOS' )
-Changelog:addChangelog('Thông Tin Liên Hệ')
-Changelog:addChangelog('YTB: @thanhdzso1')
-Changelog:addChangelog('Tik Tok: @vanthanhisme_')
-Changelog:addChangelog('FB : @vanthanhisme')
-Changelog:addChangelog('Goodbye Everyone')
-
-
 local Home_Right = Tab.Tab_1:addSection() -- HOME RIGHT SECTION
 local Main_Home = Home_Right:addMenu("#Home")
 
